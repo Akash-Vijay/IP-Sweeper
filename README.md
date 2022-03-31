@@ -1,5 +1,5 @@
 # IP-Sweeper
-A bash script to find all active IP Addresses in a network. <br><br>
+A bash script for Linux to find all active IP Addresses in a network. <br><br>
 
 
 ## How to run
