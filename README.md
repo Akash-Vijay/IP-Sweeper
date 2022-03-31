@@ -7,7 +7,7 @@ A bash script for Linux to find all active IP Addresses in a network. <br><br>
 ### 1. Provide execution permission for file
     chmod u+x ipsweeper.sh
   
-### 2. Run the file with arguement
+### 2. Run the file with argument
     ./ipsweeper.sh {First 3 section of IP Address}
 
 
