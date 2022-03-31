@@ -17,6 +17,9 @@ echo "Expected Synatx  : ./ipsweeper.sh {First 3 section of IP Address}"
 echo "Sample Syntax    : ./ipsweeper.sh 192.168.72"
 
 else
+echo ""
+echo "Active IP Addresses"
+echo ""
 for ip in `seq 1 254`;do
 ping $1.$ip -c 1 | grep "64 bytes" | cut -d " " -f 4 | tr -d ":" &
 done
